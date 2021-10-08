@@ -1,0 +1,157 @@
+body{
+	background-image: url(img/bg3.jpg);
+	background-repeat: repeat;
+	/*background-color: #3fe;*/
+	width: 100%;
+}
+.header{
+	background-image: url(img/header_1800x120.jpg);
+	background-repeat: no-repeat;
+	height: 160px;
+	background-position: 50% 15%;
+}
+#page{
+	box-shadow: 0 0 5px black;
+	width: 1300px;
+	margin: 170px auto;
+	background-color: #fff;
+}
+.main{
+	width: 800px;
+	display: inline-block;
+}
+.img{
+	width: 100px;
+	height: 100px;
+	margin: 10px 0 10px 0;
+	margin-left: 5px;
+	display: inline-block;
+}
+aside{
+	float: right;
+	width: 300px;
+}
+.img_aside{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+div .login input{
+	display: inline-block;
+}
+.clear{
+	clear: both;
+}
+.isi{
+	width: 80%;
+	margin-left: 10px;
+	height: 130px;
+	display: inline-block;
+	margin-bottom: 8px;
+}
+.isi a{
+	color: black;
+}
+.isi a:hover{
+	color: royalblue;
+}
+.artikel{
+	position: relative;
+	margin-bottom: 5px;
+	border: 2px solid #333;
+}
+.top{
+	background-color: red; 
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+.HL a{
+	font-size: 20px;
+	display: inline-block; 
+	margin:0 5px 0 5px;  
+}
+.HL a:hover{
+	color: salmon;
+	background-color: lightskyblue;
+}
+.footer{
+	/*background-color: #3f3;*/
+	height: 50px;
+}
+
+.image{
+	height: 120px; 
+	width:120px;
+}
+.login{
+	width: 300px;
+	margin: auto;
+}
+
+@media(max-width: 997px){
+	#page{
+		width: 970px;
+	}
+	.header{
+		background-position: 50% 10%;
+	}
+
+	aside{
+		margin: 0 0 10px 15px;
+		float: none;
+		width: 96%;
+	}
+
+	.main{
+		width: 95%;
+	}
+}
+
+@media(max-width: 768px)
+{
+	#page{
+		width: 700px;
+	}
+	.header{
+		width: 100%;
+		background-position: 55%;
+	}
+
+	.main{
+		width: 100%;
+	}
+	.artikel{
+		width: 95%;
+	}
+
+	aside{
+		margin: 0 0 10px 15px;
+		float: none;
+		width: 95%;
+	}
+}
+
+@media(max-width: 500px)
+{
+	#page{
+		width: 457px;
+	}
+	aside{
+		width: 95%;
+	}
+	.main{
+		width: 95%; 
+	}
+	.artikel{
+		width: 95%;
+	}
+	.header{
+		background-image: url('img/header_500x120.png');
+		background-repeat: no-repeat;
+		width: 450px;
+		height: 200px;
+		background-position: 10%;
+	}
+
+}
